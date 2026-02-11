@@ -1,0 +1,146 @@
+body {
+    margin-left: 200px;
+    color: black; 
+    font-family: "Cascadia Mono", Arial, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    width: 100%;
+    font-size: 40pt;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h1, h2 {
+    color: yellow;
+    margin: 20px 0px;    
+    font-weight: bold;
+}
+
+.drop-shadow {
+    -webkit-box-shadow: 0 0 5px 2px rgba(32, 30, 49, .5);
+    box-shadow: 0 0 5px 2px rgba(32, 30, 49, .5);
+}
+
+.frame {
+    margin: 10px;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 2px solid darkslategray !important;
+    background-color: yellow;
+    color: black;
+    text-align: justify;
+    width: 90%;
+}
+
+.nav-ul {
+    list-style-type: none;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    border-right: 1px solid black;
+}
+
+header {
+    margin-left: 200px;
+}
+
+header > p {
+    margin-left: 20px;
+}
+
+.container {
+    margin-left: 200px;
+    background-color: black;
+}
+
+.nav-item {
+    font-size: 25px;
+    color: #c8c5c5;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  70%;
+    height: 70%;
+    transition: ease .8s;
+}
+
+.nav-item:hover {
+    font-size: 30px;
+    color: yellow;
+    width:  80%;
+    height: 80%;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+.list-item {
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.kulonbsegek {
+    font-weight: bold;
+    font-size: 115%;
+    text-decoration: underline;
+}
+
+#plakat {
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    object-fit: contain;
+}
+
+#bevezeto {
+    font-family: "Consolas", Arial, sans-serif;
+    font-weight: bold !important;
+}
+
+#link-bevezeto {
+    font-family: 'Consolas', Arial, sans-serif !important;   
+    color: yellow;
+    text-decoration: none;
+}
+
+.logo {
+    height: 125px;
+    width: 125px;
+    object-fit: contain;
+}
+
+.card-header {
+    border-top-right-radius: 50px !important;
+}
+
+.card-footer {
+    border-bottom-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}
+
+.card-footer > a:any-link {
+    color: rgb(109, 108, 108);
+    font-weight: bolder;
+}
+
+.col-md-3 {
+    flex: 0 0 20% !important;
+}
